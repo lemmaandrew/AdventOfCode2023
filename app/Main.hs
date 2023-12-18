@@ -3,6 +3,7 @@ module Main where
 import Day01               ( day01p1, day01p2 )
 import Day02               ( day02p1, day02p2 )
 import Day03               ( day03p1, day03p2 )
+import Day04               ( day04p1, day04p2 )
 import Options.Applicative
     ( Parser
     , auto
@@ -21,6 +22,7 @@ days :: [[IO ()]]
 days = [ [day01p1, day01p2]
        , [day02p1, day02p2]
        , [day03p1, day03p2]
+       , [day04p1, day04p2]
        ]
 
 data Args =
