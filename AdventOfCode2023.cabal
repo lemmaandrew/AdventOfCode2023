@@ -93,6 +93,11 @@ executable AdventOfCode2023
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.19.0.0
+                    , containers >= 0.6.7
+                    , megaparsec >= 9.6.1
+                    , optparse-applicative >= 0.18.1.0
+                    , split >= 0.2.4
+                    , vector >= 0.13.1.0
 
     -- Directories containing source files.
     hs-source-dirs:   app
